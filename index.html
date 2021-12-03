@@ -12,25 +12,20 @@
         <form class="form" novalidate>
           <label class="form__label"
             >Title:
-            <input type="text" class="form__field" />
+            <input name="title" type="text" class="form__field" />
           </label>
 
           <label class="form__label"
             >Author:
-            <input type="text" class="form__field" />
+            <input name="author" type="text" class="form__field" />
           </label>
 
           <label class="form__label"
             >Priority:
-            <input type="number" class="form__field" />
+            <input name="priority" type="number" class="form__field" />
           </label>
 
-          <label class="form__label"
-            >Author:
-            <input type="text" class="form__field" />
-          </label>
-
-          <label class="form__label"
+          <label name="category" class="form__label"
             >Category:
             <select class="form__field" id="categories">
               <option value="education">Education</option>
@@ -41,6 +36,8 @@
 
           <input type="submit" class="form__submit" />
         </form>
+
+        <ul class="errors"></ul>
       </section>
       <section></section>
     </main>
