@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.book--prototype {
+  display: none;
+}
+
+section {
+  margin: 10px;
+}
