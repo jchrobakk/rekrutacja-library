@@ -11,3 +11,8 @@
 section {
   margin: 10px;
 }
+
+.errors,
+.books {
+  list-style: none;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
@@ -27,7 +28,7 @@
 
           <label name="category" class="form__label"
             >Category:
-            <select class="form__field" id="categories">
+            <select class="form__field" name="category">
               <option value="education">Education</option>
               <option value="story">Story</option>
               <option value="biography">Biography</option>
@@ -39,7 +40,16 @@
 
         <ul class="errors"></ul>
       </section>
-      <section></section>
+      <section>
+        <ul class="books">
+          <li class="books__item book book--prototype">
+            <h3>Title: <span class="book__title"></span></h3>
+            <p>Author: <span class="book__author"></span></p>
+            <p>Priority: <span class="book__priority"></span></p>
+            <p>Category: <span class="book__category"></span></p>
+          </li>
+        </ul>
+      </section>
     </main>
     <script src="./app.js"></script>
   </body>
